@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: HelveticaNeue;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+  ol, ul { list-style: none; }
+  
+  blockquote, q { quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+  strong { font-weight: bold; } 
+  
+  input { outline: none; }
+  
+  table { border-collapse: collapse; border-spacing: 0; }
+  img { border: 0; max-width: 100%; }
+  
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+
+h3 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+header {
+    background: #373A3C;
+}
+
+.header {
+    max-width: 1400px;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+}
+
+.head__main {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main {
+    color: rgba(255, 255, 255, 0.5);
+    height: 30px;
+    display: flex;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__search {
+    display: flex;
+    max-width: 210px;
+    width: 100%;
+    margin: 0 2.3rem;
+}
+
+.nav__search input{
+    font-size: 13px;
+    padding: 9px 13px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.con-items {
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.con-icons {
+    padding-left: 8px;
+}
+
+.user-icon {
+    padding-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav__profile {
+    max-width: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
