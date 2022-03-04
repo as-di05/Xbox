@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/jquery.fancybox.css"> -->
+
     <title>Xbox</title>
 </head>
 <body>
@@ -14,37 +19,74 @@
            <div class="container">
                <div class="head__main">
                    <div class="logo-main">
-                       <img src="./img/logo.svg" alt="">
+                       <img src="../img/logo.svg" alt="">
                    </div>
                    <div class="nav-main">
                        <nav class="nav__items">
                            <div class="con-items">
                                <h3>Games</h3>
-                               <img src="./img/Shape.svg" class="con-icons" alt="">
+                               <img src="../img/Shape.svg" class="con-icons" alt="">
                             </div>
                             <div class="con-items">
                                <h3>Consoles</h3>
-                               <img src="./img/Shape.svg" class="con-icons" alt="">
+                               <img src="../img/Shape.svg" class="con-icons" alt="">
                             </div>
                             <div class="con-items">
                                <h3>Community</h3>
-                               <img src="./img/Shape.svg" class="con-icons" alt="">
+                               <img src="../img/Shape.svg" class="con-icons" alt="">
                             </div>
                        </nav>
                        <div class="nav__search">
                            <input type="text" placeholder="Поиск">
                        </div>
                        <div class="nav__profile">
-                           <img src="./img/user-icon.svg" alt="" class="user-icon">
+                           <img src="../img/user-icon.svg" alt="" class="user-icon">
                            <div class="user__con-items">
-                               <h3>My Xbox title</h3>
+                               <h3>My XBOX</h3>
                            </div>
-                           <img src="./img/Shape.svg" class="con-icons" alt="">
+                           <img src="../img/Shape.svg" class="con-icons" alt="">
                        </div>
                    </div>
                </div>
            </div>
        </div>
    </header>
+   <section class="blog">
+     <div class="slider">
+       <div class="slider__item">
+            <div class="container">
+                <div class="item-slide">
+                    <div class="txt-item"><h2>Star Wars</h2> <span>Battlefront II</span></div>
+                    <div class="btns-item">
+                        <button class="watch-btn">Watch Trailer</button>
+                        <button class="explore-btn">Explore Games</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide__content">
+                <img src="../img/Star-Wars-Battlefront-II-combat.jpg" alt="">
+            </div>
+        </div> 
+        <div class="slider__item">
+            <div class="container">
+                <div class="item-slide">
+                    <div class="txt-item"><h2>EFootball 2022</h2> <span>Xbox Game</span></div>
+                    <div class="btns-item">
+                        <button class="watch-btn">Watch Trailer</button>
+                        <button class="explore-btn">Explore Games</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide__content">
+                <img src="../img/31594636.jfif"  alt="">
+            </div>
+        </div> 
+    </div>
+  </section>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
